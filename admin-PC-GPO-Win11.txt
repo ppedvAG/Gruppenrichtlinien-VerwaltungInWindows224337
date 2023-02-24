@@ -1,0 +1,12 @@
+https://www.windowspro.de/wolfgang-sommergut/admx-fuer-windows-11-windows-10-central-store
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Group Policy]
+"EnableLocalStoreOverride"=dword:00000001
+
+
+https://techcommunity.microsoft.com/t5/core-infrastructure-and-security/windows-10-or-windows-11-gpo-admx-which-one-to-use-for-your/ba-p/3063322
+
+Key: HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Group Policy
+Value: EnableLocalStoreOverride
+Type: REG_DWORD
+Data: 1
